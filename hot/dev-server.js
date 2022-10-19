@@ -55,7 +55,7 @@ if (module.hot) {
 			check();
 		}
 	});
-	log("info", "[HMR] Waiting for update signal from WDS...");
+	//log("info", "[HMR] Waiting for update signal from WDS...");
 } else {
 	throw new Error("[HMR] Hot Module Replacement is disabled.");
 }
